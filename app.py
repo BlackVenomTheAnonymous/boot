@@ -1,9 +1,3 @@
-from flask import Flask, request, jsonify
-import requests
-pip install flask
-pip install jsonify
-app = Flask(__name__)
-
 # Replace with your own API key
 API_KEY = '8f0e07e8765861bd21b2c54331c0c180'
 
