@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Create a Procfile if it doesn't exist
+if [[ ! -f Procfile ]]; then
+  echo "web: python app.py" > Procfile
+fi
