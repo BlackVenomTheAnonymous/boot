@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import requests
-
+pip install flask
 app = Flask(__name__)
 
 # Replace with your own API key
