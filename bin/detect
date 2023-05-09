@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [[ -f requirements.txt ]]; then
+  echo "Python"
+  exit 0
+else
+  exit 1
+fi
