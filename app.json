@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "description": "Your App Description",
+  "repository": "https://github.com/yourusername/your-repo.git",
+  "keywords": ["python", "backend"],
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "5985008411:AAF8uDeTiMKAzDZEOp5UzbnpRKpcbpVCCww"
+    },
+    "CHANNEL_USERNAME": {
+      "description": "likhon.anon"
+    }
+  }
+}
